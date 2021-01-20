@@ -1,0 +1,153 @@
+/* Created by hamza
+
+    hamzagost32@gmail.com
+*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-theme {
+    color: #1bcfcf;
+}
+
+/* header */
+
+header {
+    background: linear-gradient( rgba(0, 0, 0, .4), rgba(0, 0, 0, .5)), url('../img/resort3.jpg') no-repeat center center /cover;
+    height: 100vh;
+}
+
+/* navbar */
+
+.navbar{
+    background: rgba(245, 245, 245, 0.911) !important;
+    padding: .6rem .6rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-size: .9rem;
+    transition: all .5s ease;
+}
+
+.navbar a{
+    color: rgb(61, 61, 61);
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+    color: #1bcfcf;
+}
+
+.custom-toggler-icon {
+    color: black;
+    font-size: 1.6rem;
+}
+
+/* end navbar */
+
+/* banner */
+
+.banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+/* end of banner */
+
+.banner-heading {
+    font-weight: 500;
+}
+
+.primary-btn {
+    color: white;
+    background: #1bcfcf;
+}
+
+.banner-form {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* .banner-form .svg-inline--fa {
+    padding: .3rem;
+    height: 100%;
+    width: 1.8rem;
+    top: auto;
+    border-left: 2px solid rgb(0, 0, 0, .4);
+    right: 0.2rem;
+   
+} */
+
+/* end header */
+
+/* Special */
+
+.card-special {
+    height: 100%;
+    margin: 0 .6rem;
+    box-shadow: 0 0 .8rem rgba(0, 0, 0, .075);
+    transition: transform .4s ease;
+}
+
+.card-special:hover {
+    border: 2px solid #1bcfcf;
+    transform: scale(.98);
+}
+
+.owl-stage {
+    display: flex;
+}
+
+button.owl-dot.active span, button.owl-dot:hover span {
+    background: #1bcfcf !important;
+}
+
+/* End of Special */
+
+/* holydays */
+
+#holydays-section {
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url('../img/resort3.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.svg-icon, .svg-inline--fa {
+    color: rgb(230, 230, 230);
+    transition: all .3s ease-in;
+}
+
+#holydays-section .svg-icon:hover .svg-inline--fa, .svg-icon:hover {
+    color: #1bcfcf;
+    transform: scale(1.1);
+}
+
+/* end holydays */
+
+/* Clients */
+
+.clients-card {
+    border-top: 4px solid #1bcfcf;
+    margin: auto 1rem;
+}
+
+.clients-card .svg-inline--fa {
+    color: #1bcfcf;
+    font-size: 1.3rem;
+}
+
+.clients-hr {
+    border-bottom: 1px solid #1bcfcf;
+    width: 50%;
+}
+
+/* end Clients */
+
+@media (max-width: 990px) {
+    /* margin bottom on small screen but here it's lg */
+    .mb-osm {
+        margin-bottom: 1rem;
+    }
+}
