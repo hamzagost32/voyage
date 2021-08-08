@@ -1,4 +1,3 @@
-# Voyage
+# VOYAGE
 
-I will update this soon 
-just break this code edit it and share with other.
+Voyage is langing page done with  HTML5 and Bootstrap.
